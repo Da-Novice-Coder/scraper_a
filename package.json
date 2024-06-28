@@ -1,0 +1,17 @@
+{
+  "name": "scraper_a",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node main.js",
+    "cluster": "node xcluster.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.12.1"
+  }
+}
